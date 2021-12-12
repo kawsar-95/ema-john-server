@@ -1,36 +1,42 @@
-# ema-john-server
+# ema-john-online-shop
 
-#TODO: Steps for authentication
-##Step -1: Initial Setup========================
-Firebase: Create Project
-Create Web App
-Get Configuration
-Initialize Firebase
-Enable Auth Method
-##Step-2: Setup Component=======================
+#### Live Site: [Live Website](https://ema-john-shop-online.netlify.app/).
+
+
+ ### TODO: Steps for authentication
+
+#### Step -1: Initial Setup========================
+1. Firebase: Create Project
+2. Create Web App
+3. Get Configuration
+4. Initialize Firebase
+5. Enable Auth Method
+
+#### Step-2: Setup Component=======================
 component/
+1. Create Login Component
+2. Create Register Component
+3. Create Route for LogIn and Register
 
-Create Login Component
-Create Register Component
-Create Route for LogIn and Register
-##Step-3: Setup Auth System=====================
+#### Step-3: Setup Auth System=====================
 hooks/useFirebase
+1. Set up sign in methode
+2. setup sign out methode
+3. user state
+4. Special Observer
+5. Return Neccessary Methods and states from useFirebase
 
-Set up sign in methode
-setup sign out methode
-user state
-Special Observer
-Return Neccessary Methods and states from useFirebase
-##Step-4: Create Auth Context Hook (useAuth)=====
+#### Step-4: Create Auth Context Hook (useAuth)=====
 src/context folder
+1. Create a auth context
+2. create context provider
+3. Set context provider context value
+4. use Auth Provider
+5. create useAuth Hook
 
-Create a auth context
-create context provider
-Set context provider context value
-use Auth Provider
-create useAuth Hook
-##Step-5: Crate Private Route=======================
-Create Private Route
-Set Private Route
-##Step-6: Redireact after login===================
-after login redirect user to their desired destination
+#### Step-5: Crate Private Route=======================
+1. Create Private Route
+2. Set Private Route
+
+#### Step-6: Redireact after login===================
+1. after login redirect user to their desired destination
